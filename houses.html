@@ -12,7 +12,7 @@
 				<img class="airbnb-logo"src="images/logo-airbnb.png" alt="Airbnb">
 			</div>
 			<div>
-				<button type="button" class="btn btn-outline-secondary btn-sm"><img  class="userlogo"src=https://randomuser.me/api/portraits/men/11.jpg><small>Karar</small></button>
+				<button type="button" class="btn btn-outline-secondary btn-sm"><img  class="userlogo"src=https://randomuser.me/api/portraits/men/11.jpg><small>User name</small></button>
 			</div>
 			<div>
 				<button type="button" class="btn btn-outline-secondary btn-sm"><small>Logout</small></button>
@@ -20,19 +20,37 @@
 		</nav>
 		<form>
 			<div>
-				any location
+				<select class="form-select" aria-label="Default select example">
+					<option selected>Any Location</option>
+					<option value="1">Koh Phangan</option>
+					<option value="2">Koh Samui</option>
+					<option value="3">Bali</option>
+				</select>
 			</div>
 			<div>
-				any rooms
+				<select class="form-select" aria-label="Default select example">
+					<option selected>Any Rooms</option>
+					<option value="1">1 rooms</option>
+					<option value="2">2 rooms</option>
+					<option value="3">3 rooms</option>
+					<option value="4">4 rooms</option>
+					<option value="5">5 rooms</option>
+				</select>
 			</div>
 			<div>
-				max price
+				<div class="input-group mb-3">
+					<span class="input-group-text">$</span>
+					<input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+				</div>
 			</div>
 			<div>
-				price low to high
+				<select class="form-select" aria-label="Default select example">
+					<option selected>Price (low to high)</option>
+					<option value="1">Price (high to low)</option>
+				</select>
 			</div>
 			<div>
-				house name
+				<input class="form-control" type="text" placeholder="House name...">
 			</div>
 			<div>
 				<button type="button" class="btn btn-success btn-sm">Search</button>
