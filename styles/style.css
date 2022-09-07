@@ -3,26 +3,7 @@
 	width: 18px;
 	margin-right: 4px
 }
-
-nav {
-	display: grid;
-	grid-template-columns: auto 100px 90px;
-	margin: 10px 10px;
-}
-
 .airbnb-logo{
 	width: 100px;
 	margin-left: 20px;
-}
-
-form {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	background-color: #F8F8F8;
-	grid-column-gap: 1px;
-}
-
-form > div{
-	margin-left: 35px;
-	padding-top: 10px;
 }
