@@ -1,0 +1,22 @@
+.userlogo {
+	border-radius: 50%;
+	width: 18px;
+	margin-right: 4px
+}
+
+nav {
+	display: grid;
+	grid-template-columns: 12fr 1fr 1fr;
+	margin: 10px 10px;
+}
+
+.airbnb-logo{
+	width: 100px;
+	margin-left: 20px;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color: #F8F8F8;
+}
