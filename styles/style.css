@@ -8,7 +8,7 @@
 }
 
 .login-bg {
-  background-image: url(https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399115/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/thailand.jpg);
+  background-image: url("https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399115/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/thailand.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
