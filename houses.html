@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles/bootstrap.css" />
     <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/95ef2e50fa.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Houses</title>
   </head>
   <body>
@@ -39,34 +43,44 @@
         <form>
           <div class="row pt-2">
             <div class="col">
-              <select
-                class="form-select form-select-sm"
-                aria-label="Default select example"
-              >
-                <option selected>Any Location</option>
-                <option value="1">Koh Phangan</option>
-                <option value="2">Koh Samui</option>
-                <option value="3">Bali</option>
-              </select>
-            </div>
-            <div class="col">
-              <select
-                class="form-select form-select-sm"
-                aria-label="Default select example"
-              >
-                <option selected>Any rooms</option>
-                <option value="1">1 room</option>
-                <option value="2">2 rooms</option>
-                <option value="3">3 rooms</option>
-                <option value="4">4 rooms</option>
-                <option value="5">5 rooms</option>
-              </select>
+              <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm"
+                  ><i class="fa-solid fa-location-dot"></i
+                ></span>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label="Default select example"
+                >
+                  <option selected>Any Location</option>
+                  <option value="1">Koh Phangan</option>
+                  <option value="2">Koh Samui</option>
+                  <option value="3">Bali</option>
+                </select>
+              </div>
             </div>
             <div class="col">
               <div class="input-group input-group-sm mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-sm"
-                  >$</span
+                  ><i class="fa-solid fa-house-chimney"></i
+                ></span>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label="Default select example"
                 >
+                  <option selected>Any rooms</option>
+                  <option value="1">1 room</option>
+                  <option value="2">2 rooms</option>
+                  <option value="3">3 rooms</option>
+                  <option value="4">4 rooms</option>
+                  <option value="5">5 rooms</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm"
+                  ><i class="fa-sharp fa-solid fa-dollar-sign"></i
+                ></span>
                 <input
                   type="number"
                   class="form-control"
@@ -76,13 +90,18 @@
               </div>
             </div>
             <div class="col">
-              <select
-                class="form-select form-select-sm"
-                aria-label="Default select example"
-              >
-                <option selected>Price(low to high)</option>
-                <option value="1">Price(high to low)</option>
-              </select>
+              <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm"
+                  ><i class="fa-solid fa-sort"></i
+                ></span>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label="Default select example"
+                >
+                  <option selected>Price(low to high)</option>
+                  <option value="1">Price(high to low)</option>
+                </select>
+              </div>
             </div>
             <div class="col">
               <div class="input-group input-group-sm mb-3">
@@ -124,6 +143,7 @@
               <div class="row">
                 <div class="col text-start"><small>3 Reviews</small></div>
                 <div class="col text-end"><small>$350/night</small></div>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -142,6 +162,7 @@
               <div class="row">
                 <div class="col text-start"><small>1 Reviews</small></div>
                 <div class="col text-end"><small>$150/night</small></div>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -160,6 +181,7 @@
               <div class="row">
                 <div class="col text-start"><small>2 Reviews</small></div>
                 <div class="col text-end"><small>$120/night</small></div>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -178,6 +200,7 @@
               <div class="row">
                 <div class="col text-start"><small>1 Reviews</small></div>
                 <div class="col text-end"><small>$250/night</small></div>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -196,6 +219,7 @@
               <div class="row">
                 <div class="col text-start"><small>1 Reviews</small></div>
                 <div class="col text-end"><small>$80/night</small></div>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -214,6 +238,7 @@
               <div class="row">
                 <div class="col text-start"><small>0 Reviews</small></div>
                 <div class="col text-end"><small>$150/night</small></div>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -232,6 +257,7 @@
               <div class="row">
                 <div class="col text-start"><small>0 Reviews</small></div>
                 <div class="col text-end"><small>$100/night</small></div>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
           </div>
