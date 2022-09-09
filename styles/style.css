@@ -14,3 +14,8 @@
   background-position: center;
   height: 100vh;
 }
+
+.userlogo-profile-pg {
+  border-radius: 50%;
+  width: 32px;
+}
